@@ -58,7 +58,20 @@ for number, probability in sorted_probabilities:
     print(f"Number {number}: Probability = {probability:.6f}")
 
 # ...
+# Psudo Code Changes Made by Jacob Strubelt
 
+# ... Find median average frequency for each year ...
+# loop starting at first year until end year of data
+# divide sorted_probabilities by 2 -> that years probability for 57 and 75
+
+# ... adjust old probabilities to accomadate for new numbers ... 
+# current year probability for 57 multiply by two -> offet
+# offset / total number of possible numbers -> adjustment
+# each numbers yearly probability - adjustment -> each numbers yearly probability // adjusting other odds so that it doesnt total
+#                                                                                 // over 100%
+
+
+# Back to given code
 # ...
 
 # Rest of the code (visualization, saving plots, etc.)
